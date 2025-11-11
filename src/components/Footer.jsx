@@ -26,7 +26,7 @@ const Footer = () => {
               एक समृद्ध व शांत गाव, जिथे शेती, परंपरा आणि एकतेला महत्त्व दिले जाते.
             </p>
             <a href="#" className="text-blue-400 hover:text-blue-300 transition">
-              अधिक वाचा >>
+              अधिक वाचा ...
             </a>
           </div>
 
