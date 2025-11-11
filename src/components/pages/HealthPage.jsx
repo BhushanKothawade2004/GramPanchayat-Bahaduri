@@ -1,6 +1,6 @@
 import PageHero from '../PageHero';
-import infoImage from '../../images/info.jpg';
-import gavImage from '../../images/gav.jpg';
+import infoImage from '../../images/info.jpeg';
+import gavImage from '../../images/gav.jpeg';
 
 const HealthPage = () => {
   const healthCenters = [

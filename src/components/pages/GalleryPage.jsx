@@ -1,8 +1,8 @@
 import PageHero from '../PageHero';
-import mandirImage from '../../images/mandir.jpg';
-import infoImage from '../../images/info.jpg';
-import gavImage from '../../images/gav.jpg';
-import kakaImage from '../../images/kaka.jpg';
+import mandirImage from '../../images/gav.jpeg';
+import infoImage from '../../images/info.jpeg';
+import gavImage from '../../images/gav.jpeg';
+import kakaImage from '../../images/kaka.jpeg';
 
 const GalleryPage = () => {
   const images = [

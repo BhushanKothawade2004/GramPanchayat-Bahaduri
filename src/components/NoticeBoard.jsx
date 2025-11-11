@@ -1,4 +1,4 @@
-import infoImage from '../images/info.jpg';
+import infoImage from '../images/info.jpeg';
 
 const NoticeBoard = () => {
   const notices = [

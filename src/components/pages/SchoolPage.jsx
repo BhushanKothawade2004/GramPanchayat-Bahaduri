@@ -1,6 +1,6 @@
 import PageHero from '../PageHero';
-import gavImage from '../../images/gav.jpg';
-import mandirImage from '../../images/mandir.jpg';
+import gavImage from '../../images/gav.jpeg';
+import mandirImage from '../../images/gav.jpeg';
 
 const SchoolPage = () => {
   const schools = [

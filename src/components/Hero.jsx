@@ -1,4 +1,4 @@
-import gavImage from '../images/gav.jpg';
+import gavImage from '../images/gav.jpeg';
 
 const Hero = () => {
   return (

@@ -1,4 +1,4 @@
-import kakaImage from '../images/kaka.jpg';
+import kakaImage from '../images/kaka.jpeg';
 
 const Leadership = () => {
   // You can replace these with actual images

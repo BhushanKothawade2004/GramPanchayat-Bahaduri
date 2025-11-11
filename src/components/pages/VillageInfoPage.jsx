@@ -1,7 +1,7 @@
 import PageHero from '../PageHero';
 import PopulationStats from '../PopulationStats';
 import Achievements from '../Achievements';
-import gavImage from '../../images/gav.jpg';
+import gavImage from '../../images/gav.jpeg';
 
 const VillageInfoPage = () => {
   return (

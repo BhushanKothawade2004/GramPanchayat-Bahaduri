@@ -1,6 +1,6 @@
 import PageHero from '../PageHero';
 import News from '../News';
-import mandirImage from '../../images/mandir.jpg';
+import mandirImage from '../../images/gav.jpeg';
 
 const NewsPage = () => {
   return (

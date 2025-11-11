@@ -1,7 +1,7 @@
 // You can replace these with actual award images
-import awardImage1 from '../images/gav.jpg';
-import awardImage2 from '../images/gav.jpg';
-import awardImage3 from '../images/gav.jpg';
+import awardImage1 from '../images/gav.jpeg';
+import awardImage2 from '../images/gav.jpeg';
+import awardImage3 from '../images/gav.jpeg';
 
 const Awards = () => {
   const awards = [

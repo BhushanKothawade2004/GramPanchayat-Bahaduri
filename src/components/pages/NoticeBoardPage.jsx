@@ -1,6 +1,6 @@
 import PageHero from '../PageHero';
 import NoticeBoard from '../NoticeBoard';
-import infoImage from '../../images/info.jpg';
+import infoImage from '../../images/info.jpeg';
 
 const NoticeBoardPage = () => {
   return (

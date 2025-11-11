@@ -1,5 +1,5 @@
 import PageHero from '../PageHero';
-import mandirImage from '../../images/mandir.jpg';
+import mandirImage from '../../images/gav.jpeg';
 
 const TemplePage = () => {
   const temples = [

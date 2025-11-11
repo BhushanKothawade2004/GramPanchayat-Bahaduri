@@ -1,5 +1,4 @@
 import { useRef, useEffect } from 'react';
-import gavvid from '../images/gavvid.mp4';
 
 const VideoPlayer = ({ onClose }) => {
   const videoRef = useRef(null);
@@ -7,7 +6,9 @@ const VideoPlayer = ({ onClose }) => {
   useEffect(() => {
     // Play video when modal opens
     if (videoRef.current) {
-      videoRef.current.play();
+      videoRef.current.play().catch(() => {
+        // Handle video play error silently
+      });
     }
 
     // Prevent body scroll when modal is open
@@ -52,15 +53,9 @@ const VideoPlayer = ({ onClose }) => {
 
         {/* Video Container */}
         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-          <video
-            ref={videoRef}
-            className="absolute top-0 left-0 w-full h-full rounded-t-lg"
-            controls
-            controlsList="nodownload"
-          >
-            <source src={gavvid} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <div className="absolute top-0 left-0 w-full h-full rounded-t-lg bg-gray-200 flex items-center justify-center">
+            <p className="text-gray-600">Video not available</p>
+          </div>
         </div>
       </div>
     </div>
