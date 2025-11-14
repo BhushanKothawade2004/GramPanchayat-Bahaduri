@@ -5,17 +5,17 @@ import Home from './components/home/Home';
 import AboutPage from './components/pages/AboutPage';
 import NewsPage from './components/pages/NewsPage';
 import AwardsPage from './components/pages/AwardsPage';
-import TourismPage from './components/pages/TourismPage';
+// import TourismPage from './components/pages/TourismPage';
 import GalleryPage from './components/pages/GalleryPage';
-import TemplePage from './components/pages/TemplePage';
-import HealthPage from './components/pages/HealthPage';
+// import TemplePage from './components/pages/TemplePage';
+// import HealthPage from './components/pages/HealthPage';
 import SchoolPage from './components/pages/SchoolPage';
-import AgriculturePage from './components/pages/AgriculturePage';
+// import AgriculturePage from './components/pages/AgriculturePage';
 import NoticeBoardPage from './components/pages/NoticeBoardPage';
 import VillageInfoPage from './components/pages/VillageInfoPage';
-import VeterinaryPage from './components/pages/VeterinaryPage';
-import SavingsGroupPage from './components/pages/SavingsGroupPage';
-import SchemesPage from './components/pages/SchemesPage';
+// import VeterinaryPage from './components/pages/VeterinaryPage';
+// import SavingsGroupPage from './components/pages/SavingsGroupPage';
+// import SchemesPage from './components/pages/SchemesPage';
 import ContactPage from './components/pages/ContactPage';
 import ComplaintModal from './components/ComplaintModal';
 import Footer from './components/Footer';
@@ -47,28 +47,28 @@ function App() {
         return <NewsPage />;
       case 'awards':
         return <AwardsPage />;
-      case 'tourism':
-        return <TourismPage />;
+      // case 'tourism':
+      //   return <TourismPage />;
       case 'gallery':
         return <GalleryPage />;
-      case 'temple':
-        return <TemplePage />;
-      case 'health':
-        return <HealthPage />;
+      // case 'temple':
+      //   return <TemplePage />;
+      // case 'health':
+      //   return <HealthPage />;
       case 'school':
         return <SchoolPage />;
-      case 'agriculture':
-        return <AgriculturePage />;
+      // case 'agriculture':
+      //   return <AgriculturePage />;
       case 'notice':
         return <NoticeBoardPage />;
       case 'village-info':
         return <VillageInfoPage />;
-      case 'veterinary':
-        return <VeterinaryPage />;
-      case 'savings-group':
-        return <SavingsGroupPage />;
-      case 'schemes':
-        return <SchemesPage />;
+      // case 'veterinary':
+      //   return <VeterinaryPage />;
+      // case 'savings-group':
+      //   return <SavingsGroupPage />;
+      // case 'schemes':
+      //   return <SchemesPage />;
       case 'contact':
         return <ContactPage />;
       default:

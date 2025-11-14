@@ -1,36 +1,33 @@
-// You can replace these with actual award images
-import awardImage1 from '../images/gav.jpeg';
-import awardImage2 from '../images/gav.jpeg';
-import awardImage3 from '../images/gav.jpeg';
+import backImage from '../images/back.jpg';
 
 const Awards = () => {
   const awards = [
     {
       id: 1,
-      image: awardImage1,
-      title: 'सौर ऊर्जेवर पुरस्कार',
-      description: 'सौर ऊर्जा यशस्वी उपक्रम, नवीन ऊर्जा आणि घर आणि शाळांसाठी पर्यावरणास अनुकूल योजना.',
+      image: backImage,
+      title: 'नमुना पुरस्कार',
+      description: 'माहिती काही दिवसात जोडली जाईल',
       date: '22 Sep 2025',
       category: 'पुरस्कार / यशोगाथा',
-      village: 'वडाळीभोई'
+      village: 'बहादूरी'
     },
     {
       id: 2,
-      image: awardImage2,
-      title: 'जलसंधारणातील गौरव',
-      description: 'यशस्वी जलसंधारणामुळे पाण्याची उपलब्धता सुधारली, पाण्याच्या स्रोतांची शुद्धी, विहिरींचे संरक्षण आणि पाणी साठवणूक वाढवणे.',
+      image: backImage,
+      title: 'नमुना पुरस्कार',
+      description: 'माहिती काही दिवसात जोडली जाईल',
       date: '22 Sep 2025',
       category: 'पुरस्कार / यशोगाथा',
-      village: 'वडाळीभोई'
+      village: 'बहादूरी'
     },
     {
       id: 3,
-      image: awardImage3,
-      title: 'TB मुक्त पंचायत पुरस्कार',
-      description: 'TB मुक्त पंचायत पुरस्कार हा एक सकारात्मक आणि प्रेरणादायी उदाहरण आहे, गावातील आरोग्य सेवा आणि सार्वजनिक सहभागाचे परिणाम.',
+      image: backImage,
+      title: 'नमुना पुरस्कार',
+      description: 'माहिती काही दिवसात जोडली जाईल',
       date: '22 Sep 2025',
       category: 'पुरस्कार / यशोगाथा',
-      village: 'वडाळीभोई'
+      village: 'बहादूरी'
     }
   ];
 

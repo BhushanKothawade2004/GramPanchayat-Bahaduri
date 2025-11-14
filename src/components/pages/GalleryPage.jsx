@@ -1,20 +1,25 @@
 import PageHero from '../PageHero';
-import mandirImage from '../../images/gav.jpeg';
-import infoImage from '../../images/info.jpeg';
 import gavImage from '../../images/gav.jpeg';
+import infoImage from '../../images/info.jpeg';
 import kakaImage from '../../images/kaka.jpeg';
+import image4 from '../../images/image4.jpeg';
+import image5 from '../../images/image5.jpeg';
+import image6 from '../../images/image6.jpeg';
+import image7 from '../../images/image7.jpeg';
+import image8 from '../../images/image8.jpeg';
+import image9 from '../../images/image9.jpeg';
 
 const GalleryPage = () => {
   const images = [
-    { id: 1, src: mandirImage, alt: 'Gallery Image 1' },
+    { id: 1, src: gavImage, alt: 'Gallery Image 1' },
     { id: 2, src: infoImage, alt: 'Gallery Image 2' },
-    { id: 3, src: gavImage, alt: 'Gallery Image 3' },
-    { id: 4, src: kakaImage, alt: 'Gallery Image 4' },
-    { id: 5, src: mandirImage, alt: 'Gallery Image 5' },
-    { id: 6, src: infoImage, alt: 'Gallery Image 6' },
-    { id: 7, src: gavImage, alt: 'Gallery Image 7' },
-    { id: 8, src: kakaImage, alt: 'Gallery Image 8' },
-    { id: 9, src: mandirImage, alt: 'Gallery Image 9' },
+    { id: 3, src: kakaImage, alt: 'Gallery Image 3' },
+    { id: 4, src: image4, alt: 'Gallery Image 4' },
+    { id: 5, src: image5, alt: 'Gallery Image 5' },
+    { id: 6, src: image6, alt: 'Gallery Image 6' },
+    { id: 7, src: image7, alt: 'Gallery Image 7' },
+    { id: 8, src: image8, alt: 'Gallery Image 8' },
+    { id: 9, src: image9, alt: 'Gallery Image 9' },
   ];
 
   return (

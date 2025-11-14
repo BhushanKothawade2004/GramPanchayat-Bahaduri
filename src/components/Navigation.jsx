@@ -9,20 +9,20 @@ const Navigation = ({ onOpenComplaint }) => {
     { label: 'आमच्याबद्दल', link: '#about' },
     { label: 'न्युज/अपडेट्स', link: '#news' },
     { label: 'पुरस्कार / यशोगाथा', link: '#awards' },
-    { label: 'पर्यटन स्थळ', link: '#tourism' },
+    // { label: 'पर्यटन स्थळ', link: '#tourism' },
     { label: 'फोटो गॅलरी', link: '#gallery' },
     {
       label: 'इतर',
       submenu: [
-        { label: 'मंदिर', link: '#temple' },
-        { label: 'आरोग्य दवाखाने', link: '#health' },
+        // { label: 'मंदिर', link: '#temple' },
+        // { label: 'आरोग्य दवाखाने', link: '#health' },
         { label: 'शाळा', link: '#school' },
-        { label: 'शेती', link: '#agriculture' },
+        // { label: 'शेती', link: '#agriculture' },
         { label: 'सूचना फलक', link: '#notice' },
         { label: 'गावाची माहिती', link: '#village-info' },
-        { label: 'पशुवैद्यकीय दवाखाने', link: '#veterinary' },
-        { label: 'बचत गट माहिती', link: '#savings-group' },
-        { label: 'लोकप्रिय योजना', link: '#schemes' },
+        // { label: 'पशुवैद्यकीय दवाखाने', link: '#veterinary' },
+        // { label: 'बचत गट माहिती', link: '#savings-group' },
+        // { label: 'लोकप्रिय योजना', link: '#schemes' },
       ],
     },
     { label: 'संपर्क साधा', link: '#contact' },
@@ -41,8 +41,13 @@ const Navigation = ({ onOpenComplaint }) => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="text-lg md:text-xl font-bold text-gray-800">
-              ग्रामपंचायत बहादूरी
+            <div>
+              <div className="text-lg md:text-xl font-bold text-gray-800">
+                ग्रामपंचायत बहादूरी
+              </div>
+              <div className="text-xs md:text-sm text-gray-600">
+                ता.चांदवड, जि.नाशिक
+              </div>
             </div>
           </div>
           

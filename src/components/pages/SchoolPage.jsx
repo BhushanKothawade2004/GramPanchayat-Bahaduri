@@ -1,32 +1,32 @@
 import PageHero from '../PageHero';
+import backImage from '../../images/back.jpg';
 import gavImage from '../../images/gav.jpeg';
-import mandirImage from '../../images/gav.jpeg';
 
 const SchoolPage = () => {
   const schools = [
     {
       id: 1,
-      name: 'शाळा 1',
-      description: 'गावातील मुख्य शाळा जिथे उत्तम शिक्षण दिले जाते आणि विद्यार्थ्यांच्या संपूर्ण विकासावर भर दिला जातो.',
+      name: 'नमुना शाळा फोटो',
+      description: 'हा एक नमुना शाळा आहे. खरी शाळेची माहिती लवकरच जोडली जाईल.',
       level: 'प्राथमिक आणि माध्यमिक',
       students: '200+',
-      location: 'वडाळीभोई'
+      location: 'बहादूरी'
     },
     {
       id: 2,
-      name: 'शाळा 2',
-      description: 'गावातील दुसरी शाळा जिथे आधुनिक शिक्षण पद्धती वापरून विद्यार्थ्यांना शिक्षण दिले जाते.',
+      name: 'नमुना शाळा फोटो',
+      description: 'हा एक नमुना शाळा आहे. खरी शाळेची माहिती लवकरच जोडली जाईल.',
       level: 'माध्यमिक',
       students: '150+',
-      location: 'वडाळीभोई'
+      location: 'बहादूरी'
     },
     {
       id: 3,
-      name: 'शाळा 3',
-      description: 'गावातील तिसरी शाळा जिथे शिक्षणाच्या सर्व सुविधा उपलब्ध आहेत.',
+      name: 'नमुना शाळा फोटो',
+      description: 'हा एक नमुना शाळा आहे. खरी शाळेची माहिती लवकरच जोडली जाईल.',
       level: 'प्राथमिक',
       students: '100+',
-      location: 'वडाळीभोई'
+      location: 'बहादूरी'
     }
   ];
 
@@ -35,7 +35,7 @@ const SchoolPage = () => {
       <PageHero 
         title="शाळा" 
         subtitle="माहिती"
-        image={mandirImage}
+        image={gavImage}
       />
       <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -51,7 +51,7 @@ const SchoolPage = () => {
                 className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300"
               >
                 <img
-                  src={gavImage}
+                  src={backImage}
                   alt={school.name}
                   className="w-full h-[200px] object-cover"
                 />

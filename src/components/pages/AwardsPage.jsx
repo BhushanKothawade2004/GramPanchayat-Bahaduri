@@ -1,6 +1,6 @@
 import PageHero from '../PageHero';
 import Awards from '../Awards';
-import infoImage from '../../images/info.jpeg';
+import infoImage from '../../images/back.jpg';
 
 const AwardsPage = () => {
   return (

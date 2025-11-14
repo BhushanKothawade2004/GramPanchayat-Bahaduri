@@ -1,5 +1,5 @@
 import PageHero from '../PageHero';
-import gavImage from '../../images/gav.jpeg';
+import gavImage from '../../images/back.jpg';
 
 const ContactPage = () => {
   return (
