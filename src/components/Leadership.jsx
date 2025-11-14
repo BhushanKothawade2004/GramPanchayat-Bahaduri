@@ -1,25 +1,55 @@
 import kakaImage from '../images/kaka.jpeg';
+import image4 from '../images/image4.jpeg';
+import dummyImage from '../images/dummy.jpg';
+import image5 from '../images/image5.jpeg';
+import image6 from '../images/image6.jpeg';
+import image7 from '../images/image7.jpeg';
+import image8 from '../images/image8.jpeg';
+import image9 from '../images/image9.jpeg';
 
 const Leadership = () => {
-  // You can replace these with actual images
   const teamMembers = [
     {
-      image: kakaImage, // Replace with actual image for उपसरपंच
-      name: 'संपूर्ण नाव',
+      image: image4,
+      name: 'आनंदा मुरलीधर शिरसाठ',
       role: 'उपसरपंच',
-      village: 'गावाचे नाव'
+      village: 'बहादूरी'
     },
     {
-      image: kakaImage, // Replace with actual image for ग्राम पंचायत अधिकारी
+      image: dummyImage,
       name: 'संपूर्ण नाव',
-      role: 'ग्राम पंचायत अधिकारी',
-      village: 'गावाचे नाव'
+      role: 'ग्रामपंचायत अधिकारी',
+      village: 'बहादूरी'
     },
     {
-      image: kakaImage, // Replace with actual image for सदस्य
-      name: 'संपूर्ण नाव',
+      image: image5,
+      name: 'नवनाथ निवृत्ती उगले',
       role: 'सदस्य',
-      village: 'गावाचे नाव'
+      village: 'बहादूरी'
+    },
+    {
+      image: image6,
+      name: 'शैला योगेश गारे',
+      role: 'सदस्य',
+      village: 'बहादूरी'
+    },
+    {
+      image: image7,
+      name: 'समाधान काशिनाथ शिरसाठ',
+      role: 'सदस्य',
+      village: 'बहादूरी'
+    },
+    {
+      image: image8,
+      name: 'योगेश गरिबराव गांगुर्डे',
+      role: 'सदस्य',
+      village: 'बहादूरी'
+    },
+    {
+      image: image9,
+      name: 'अंजना रमेश आढार',
+      role: 'सदस्य',
+      village: 'बहादूरी'
     }
   ];
 
@@ -50,18 +80,19 @@ const Leadership = () => {
                   <div className="mb-6 overflow-hidden rounded-lg shadow-md">
                     <img 
                       src={kakaImage} 
+                      
                       alt="सरपंच" 
                       className="w-full h-[400px] object-cover object-center hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <div className="text-center space-y-2">
                     <h3 className="text-2xl md:text-3xl font-bold text-blue-800 mb-2">
-                      संपूर्ण नाव
+                      मंगलाताई केदु शिरसाठ
                     </h3>
                     <div className="inline-block px-4 py-1 bg-teal-100 rounded-full mb-2">
                       <p className="text-lg font-semibold text-teal-800">सरपंच</p>
                     </div>
-                    <p className="text-base text-gray-600 font-medium">गावाचे नाव</p>
+                    <p className="text-base text-gray-600 font-medium">बहादूरी</p>
                   </div>
                 </div>
               </div>

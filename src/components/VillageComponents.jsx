@@ -111,10 +111,10 @@ export const StatisticsDashboard = ({ language = 'mr' }) => {
   const t = translations[language] || translations.mr;
   
   const stats = [
-    { label: t.statistics.totalPopulation, value: '1853', icon: '👥' },
-    { label: t.statistics.literacyRate, value: '76%', icon: '📚' },
-    { label: t.statistics.totalLand, value: '500+', icon: '🌾' },
-    { label: t.statistics.educationCenters, value: '6+', icon: '🏫' }
+    { label: t.statistics.totalPopulation, value: '---', icon: '👥' },
+    { label: t.statistics.literacyRate, value: '--%', icon: '📚' },
+    { label: t.statistics.totalLand, value: '--', icon: '🌾' },
+    { label: t.statistics.educationCenters, value: '-', icon: '🏫' }
   ];
 
   return (
@@ -148,24 +148,27 @@ export const CasteWiseVoterTable = ({ language = 'mr' }) => {
   const t = translations[language] || translations.mr;
   
   const casteData = [
-    { caste: 'अनुसुचीत जाती (SC)', male: 72, female: 68, total: 140 },
-    { caste: 'अनुसुचीत जमाती(ST)', male: 12, female: 16, total: 28 },
-    { caste: 'इतर मागास वग(OBC)', male: 78, female: 55, total: 133 },
-    { caste: 'विशेष मागास प्रवर्ग (SBC)', male: 66, female: 90, total: 150 },
-    { caste: 'भटक्या जमाती -अ (VJ)', male: 120, female: 110, total: 230 },
-    { caste: 'भटक्या जमाती - ब(NT-B)', male: 72, female: 95, total: 162 },
-    { caste: 'भटक्या जमाती - क (NT-C)', male: 100, female: 88, total: 188 },
-    { caste: 'भटक्या जमाती - ड (NT-D)', male: 80, female: 65, total: 145 },
-    { caste: 'खुला प्रवर्ग(OPEN)', male: 75, female: 92, total: 167 }
+    { caste: 'अनुसुचीत जाती (SC)', male: '-', female: '-', total: '-' },
+    { caste: 'अनुसुचीत जमाती(ST)', male: '-', female: '-', total: '-' },
+    { caste: 'इतर मागास वग(OBC)', male: '-', female: '-', total: '-' },
+    { caste: 'विशेष मागास प्रवर्ग (SBC)', male: '-', female: '-', total: '-' },
+    { caste: 'भटक्या जमाती -अ (VJ)', male: '-', female: '-', total: '-' },
+    { caste: 'भटक्या जमाती - ब(NT-B)', male: '-', female: '-', total: '-' },
+    { caste: 'भटक्या जमाती - क (NT-C)', male: '-', female: '-', total: '-' },
+    { caste: 'भटक्या जमाती - ड (NT-D)', male: '-', female: '-', total: '-' },
+    { caste: 'खुला प्रवर्ग(OPEN)', male: '-', female: '-', total: '-' }
   ];
 
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gray-800">
             {t.casteTable.title}
           </h2>
+          <p className="text-[10px] text-gray-500 text-center mb-4">
+            ही माहिती लवकरच अपडेट केली जाईल आणि या ब्लॉकमध्ये अतिरिक्त माहिती जोडली जाईल
+          </p>
           
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-md overflow-hidden">
@@ -191,9 +194,9 @@ export const CasteWiseVoterTable = ({ language = 'mr' }) => {
                 ))}
                 <tr className="bg-teal-50 font-bold">
                   <td className="px-4 py-3">एकूण</td>
-                  <td className="px-4 py-3">665</td>
-                  <td className="px-4 py-3">679</td>
-                  <td className="px-4 py-3">1344</td>
+                  <td className="px-4 py-3">-</td>
+                  <td className="px-4 py-3">-</td>
+                  <td className="px-4 py-3">-</td>
                 </tr>
               </tbody>
             </table>

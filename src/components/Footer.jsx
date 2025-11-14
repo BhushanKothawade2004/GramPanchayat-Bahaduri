@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+918292939470"
+                  href="tel:+xxxxxxxxxxx"
                   className="text-gray-300 hover:text-white transition flex items-center gap-2"
                 >
                   <span>📞</span>
@@ -79,11 +79,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:chdvadalibhoi@gmail.com"
+                  href="mailto:chZXXXXXXXXXXi@gmail.com"
                   className="text-gray-300 hover:text-white transition flex items-center gap-2"
                 >
                   <span>✉️</span>
-                  <span>chdvadalibhoi@gmail.com</span>
+                  <span>chdXXXXXXXXXi@gmail.com</span>
                 </a>
               </li>
               <li className="text-gray-300">
@@ -115,7 +115,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 mt-8 text-center text-gray-400">
-          <p>Copyright © 2025 Vadalibhoi Gram Panchayat. All Rights Reserved</p>
+          <p>Copyright © 2025 Bahaduri Gram Panchayat. All Rights Reserved</p>
         </div>
       </div>
     </footer>
